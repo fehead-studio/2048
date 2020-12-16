@@ -1,0 +1,132 @@
+/* 记录分数部分开始 */
+
+.score {
+    width: 400px;
+    height: 8px;
+    margin: 30px auto;
+    font-size: 20px;
+}
+
+.current-score,
+.most-score {
+    width: 200px;
+    float: left;
+    text-align: center;
+}
+
+.current-score span {
+    color: blue;
+}
+
+.most-score span {
+    color: red;
+}
+
+
+/* 记录分数部分结束 */
+
+.contain {
+    clear: both;
+    width: 400px;
+    height: 400px;
+    background-color: #bbada0;
+    margin: 40px auto 20px;
+    padding: 5px;
+}
+
+.n0,
+.n2,
+.n4,
+.n8,
+.n16,
+.n32,
+.n64,
+.n128,
+.n256,
+.n512,
+.n1024,
+.n2018,
+.n4096,
+.n8192 {
+    width: 90px;
+    height: 90px;
+    background-color: rgba(238, 228, 218, 0.35);
+    float: left;
+    margin: 5px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 90px;
+    color: #fff;
+}
+
+.controlButton {
+    width: 400px;
+    height: 50px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#newstart {
+    color: graytext;
+}
+
+
+/*设置每个数字的样式*/
+
+.n2 {
+    background-color: #fff;
+    color: black;
+}
+
+.n4 {
+    background-color: #ede0c8;
+    color: black;
+}
+
+.n8 {
+    background-color: #f2b179;
+}
+
+.n16 {
+    background-color: #f59563;
+}
+
+.n32 {
+    background-color: #f67c5f;
+}
+
+.n64 {
+    background-color: #f65e3b;
+}
+
+.n128 {
+    background-color: #edcf72;
+}
+
+.n256 {
+    background-color: #fec716;
+}
+
+.n512 {
+    background-color: #ddc190;
+}
+
+.n1024 {
+    background-color: #9f8963;
+}
+
+.n2048 {
+    background-color: #cc8100;
+}
+
+.n4096 {
+    background-color: #5d4d32;
+}
+
+.n8192 {
+    background-color: #93c;
+}
+
+.number {
+    display: none;
+}

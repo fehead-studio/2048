@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1, width=device-width, maximum-scale=1, minimum-scale=1.0, user-scalable=no">
+    <title>2048小游戏</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" type="text/javascript" charset="utf-8"></script>
+</head>
+
+<body>
+
+    <div class="score">
+        <div class="current-score">
+            <strong>当前得分：</strong>
+            <span id="current-score">0</span>
+        </div>
+        <div class="most-score">
+            <strong>最高得分：</strong>
+            <span id="most-score">0</span>
+        </div>
+    </div>
+    <div class="contain">
+        <div class="line-1">
+
+            <div id="cd-11" class="n0"></div>
+            <div id="cd-12" class="n0"></div>
+            <div id="cd-13" class="n0"></div>
+            <div id="cd-14" class="n0"></div>
+        </div>
+        <div class="line-2">
+
+            <div id="cd-21" class="n0"></div>
+            <div id="cd-22" class="n0"></div>
+            <div id="cd-23" class="n0"></div>
+            <div id="cd-24" class="n0"></div>
+        </div>
+        <div class="line-3">
+
+            <div id="cd-31" class="n0"></div>
+            <div id="cd-32" class="n0"></div>
+            <div id="cd-33" class="n0"></div>
+            <div id="cd-34" class="n0"></div>
+        </div>
+        <div class="line-4">
+
+            <div id="cd-41" class="n0"></div>
+            <div id="cd-42" class="n0"></div>
+            <div id="cd-43" class="n0"></div>
+            <div id="cd-44" class="n0"></div>
+        </div>
+    </div>
+    <div class="controlButton">
+        <input type="button" value="开始" id="start" onclick="start()">
+        <input type="button" value="重新开始" id="newstart" disabled="disabled" onclick="newstart()">
+    </div>
+    <div class="number">
+        <div class="line-1">
+            <div id="cd-00" class="n2 n0">2</div>
+            <div id="cd-01" class="n4 n0">4</div>
+            <div id="cd-02" class="n8 n0">8</div>
+            <div id="cd-03" class="n16 n0">16</div>
+        </div>
+        <div class="line-2">
+            <div id="cd-10" class="n32 n0">32</div>
+            <div id="cd-11" class="n64 n0">64</div>
+            <div id="cd-12" class="n128 n0">128</div>
+            <div id="cd-13" class="n256 n0">256</div>
+        </div>
+        <div class="line-3">
+            <div id="cd-20" class="n512 n0">512</div>
+            <div id="cd-21" class="n1024 n0">1024</div>
+            <div id="cd-22" class="n2048 n0">2048</div>
+            <div id="cd-23" class="n4096 n0">4096</div>
+        </div>
+        <div class="line-4">
+            <div id="cd-30" class="n8192 n0">8192</div>
+            <div id="cd-31" class="n0"></div>
+            <div id="cd-32" class="n0"></div>
+            <div id="cd-33" class="n0"></div>
+        </div>
+    </div>
+</body>
+
+</html>
